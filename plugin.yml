@@ -1,0 +1,15 @@
+name: PM-Vouchers
+version: 0.0.1-beta-0.1
+api: 5.0.0
+author: antbag
+main: antbag\vouchers\Main
+
+commands:
+  voucher:
+    description : Base command to create vouchers
+    permission: voucher.command.use
+
+permissions:
+  voucher.command.use:
+    description: The command to use vouchers
+    default: op
