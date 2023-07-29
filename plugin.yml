@@ -6,7 +6,7 @@ main: antbag\vouchers\Main
 
 commands:
   voucher:
-    description : Base command to create vouchers
+    description : Base command to create voucher
     permission: voucher.command.use
 
 permissions:
